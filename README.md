@@ -8,7 +8,7 @@ For a demonstration of Orc Attack! see [this video.](https://youtu.be/mGPh8Pol6h
 
 ## CLIPS rules:
 
-Whether or not the orc attacks is determined a number of [CLIPS rules](https://github.com/PaulWGraham/OrcAttack/blob/main/Text/orcattack.clp). The rules are triggered by facts that fall into three catagories: environment, human, and orc. The following is the template used to assert facts about the orc:
+Whether or not the orc attacks is determined by a number of [CLIPS rules](https://github.com/PaulWGraham/OrcAttack/blob/main/Text/orcattack.clp). The rules are triggered by facts that fall into three categories: environment, human, and orc. The following is the template used to assert facts about the orc:
 ```
 	(deftemplate orc
 		(slot health)
